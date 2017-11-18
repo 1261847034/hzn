@@ -1,0 +1,50 @@
+zh-CN:
+  activerecord:
+    models:
+      member: "会员信息"
+    attributes:
+      member:
+        MemberID: "会员ID"
+        Name: "会员姓名"
+        Sex: "会员性别"
+        HeadIcon: "会员头像"
+        Tel: "固定电话号码"
+        Password: "密码"
+        Province: "省份"
+        City: "城市"
+        Address: "详细地址"
+        Balance: "帐户余额"
+        Frozen: "帐户冻结金额"
+        Createtime: "注册时间"
+        BirthDay: "会员生日"
+        Credit: "应付金额"
+        PaymentForGoods: "运费"
+        IsDisable: "会员是否停用"
+        Phone: "会员手机号码"
+        Roles: "会员角色"
+        County: "县（区）"
+        Authentication: "认证"
+        AuthentRoles: "认证角色"
+        BJZ: "保证金"
+        Reason: "审核失败原因"
+        PayPWD: "支付密码"
+  enums:
+    member:
+      Sex:
+        male: "男"
+        female: "女"
+      IsDisable:
+        disable: "停用"
+        available: "在用"
+      Roles:
+        shipper: "货主"
+        driver: "承运人"
+      Authentication:
+        unauthorized: "未认证"
+        on_authorized: "认证中"
+        authorized: "已认证"
+        authorized_failed: "认证未通过"
+      AuthentRoles:
+        auth_shipper: "货主"
+        entity_driver: "个体承运人"
+        business_driver: "企业承运人"

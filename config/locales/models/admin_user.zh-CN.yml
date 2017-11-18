@@ -1,0 +1,29 @@
+zh-CN:
+  activerecord:
+    models:
+      admin_user: "后台用户"
+    attributes:
+      admin_user:
+        AdminuserID: "用户ID"
+        LoginName: "用户帐号"
+        Password: "密码"
+        Name: "姓名"
+        Phone: "手机号码"
+        CreateTime: "注册时间"
+        RoleId: "角色ID"
+        IsHighest: "是否最高权限"
+        Status: "状态"
+        Sex: "性别"
+        MacID: "Mac地址"
+        IP: "外网地址"
+        LIP: "内网地址"
+        CpuID: "CPUID"
+        LandTime: "登陆时间"
+  enums:
+    admin_user:
+      IsHighest:
+        highest: "最高权限"
+        other: "其它权限"
+      Status:
+        disable: "停用"
+        available: "在用"
