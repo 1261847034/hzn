@@ -23,7 +23,7 @@ set :deploy_to, "/ishanggang/apps/hzn_development"
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 
-server '106.14.159.184:40022', user: 'ishanggang_dev', roles: %w{web app}, my_property: :my_value
+server '106.14.159.184:40022', user: 'ishanggang_dev', roles: %w{web app api_doc}, my_property: :my_value
 
 # Custom SSH Options
 # ==================

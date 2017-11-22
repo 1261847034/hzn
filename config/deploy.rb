@@ -78,8 +78,15 @@ namespace :deploy do
     end
   end
 
-  after :publishing, :restart
+  desc 'build api doc files on api doc server'
+  task :build_api_doc do
+    on roles(:api_doc) do
+      within(release_path) { rake 'api:build_doc' }
+    end
+  end
 
+  after :publishing, :build_api_doc
+  after :publishing, :restart
 
   desc 'update git remote repo url'
   task :update_git_repo do

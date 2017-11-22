@@ -6,6 +6,6 @@ Rails.application.routes.draw do
     end
 
     resources :ping, only: [:index]
-    
+
   end
 end

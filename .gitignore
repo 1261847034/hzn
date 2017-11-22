@@ -36,3 +36,6 @@ config/unicorn/*.rb
 .idea/
 
 .keep
+
+public/api_doc/
+public/assets/
