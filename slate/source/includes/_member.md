@@ -12,7 +12,7 @@ Password | true | 密码
 Province | true | 省
 City | true | 市
 County | true | 区
-Roles | true | 角色(1: 货主, 2: 承运人)
+Roles | true | 角色(shipper: 货主, driver: 承运人)
 
 > 返回数据
 
