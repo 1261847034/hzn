@@ -5,5 +5,7 @@ Rails.application.routes.draw do
       post :login, :register, on: :collection
     end
 
+    resources :ping, only: [:index]
+    
   end
 end
