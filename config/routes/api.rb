@@ -5,7 +5,9 @@ Rails.application.routes.draw do
       post :login, :register, on: :collection
     end
 
-    resources :ping, only: [:index]
+    resources :ping, only: [:index] do
+    	post :count, on: :collection
+    end
 
   end
 end

@@ -64,3 +64,5 @@ gem 'acts_as_enum', '~> 1.3.0'
 gem 'rails-i18n', '~> 4.0.0'
 
 gem 'httparty', '~> 0.13.7'
+gem "redis", '~> 3.3.5'
+gem 'settingslogic'

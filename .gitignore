@@ -25,6 +25,7 @@
 
 config/database.yml
 config/secrets.yml
+config/redis.yml
 config/unicorn/*.rb
 
 ## Environment normalisation:
