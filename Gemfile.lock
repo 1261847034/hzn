@@ -111,6 +111,7 @@ GEM
       pry (~> 0.9)
       slop (~> 3.0)
     rack (1.5.5)
+    rack-cors (1.0.2)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.1.2)
@@ -206,6 +207,7 @@ DEPENDENCIES
   pry-nav
   pry-rails
   pry-remote
+  rack-cors
   rails (= 4.1.2)
   rails-i18n (~> 4.0.0)
   redis (~> 3.3.5)

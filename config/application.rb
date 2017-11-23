@@ -27,5 +27,15 @@ module Hzn
     Dir["#{Rails.root}/config/routes/*.rb"].each{|path| config.paths['config/routes.rb'] << path }
     config.exceptions_app = self.routes
 
+    config.middleware.insert_before 0, "Rack::Cors" do
+      allow do
+        origins '*'
+        resource '/api/*',
+          headers: :any,
+          methods: [:get, :post, :delete, :put, :patch, :options, :head],
+          max_age: 0
+      end
+    end
+
   end
 end

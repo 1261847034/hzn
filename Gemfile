@@ -66,3 +66,5 @@ gem 'rails-i18n', '~> 4.0.0'
 gem 'httparty', '~> 0.13.7'
 gem "redis", '~> 3.3.5'
 gem 'settingslogic'
+
+gem 'rack-cors', require: 'rack/cors'

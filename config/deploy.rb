@@ -30,7 +30,7 @@ ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 # append :linked_files, "config/database.yml", "config/secrets.yml"
 set :linked_files, %W{
                        config/database.yml config/secrets.yml config/unicorn/production.rb
-                       config/nginx. config/redis.yml
+                       config/nginx.conf config/redis.yml
                      }
 
 # Default value for linked_dirs is []
